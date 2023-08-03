@@ -7,13 +7,20 @@ import 'react-date-picker/dist/DatePicker.css';
 // import 'react-calendar/dist/Calendar.css';
 import './DataPicker.css';
 // import {formatDate} from "react-calendar/dist/cjs/index.js";
-
+import { format, isToday } from 'date-fns';
 
 
 const DateCalendar = () => {
     const [date, setDate] = useState(new Date());
     // const locales = 'en-Us';
     // const options = {weekday: 'long'};
+
+    const formatDate = date => {
+        if (isToday(date)) {
+          return `Today, ${format(date, 'MMMM d')}`;
+        }
+        return format(date, 'EEEE, MMMM d');
+      };
 
     const onChange = date => {
         setDate(date);
@@ -27,12 +34,14 @@ const DateCalendar = () => {
             value={date}
             minDate={new Date()}
             locale="en-US"
-            // format="MMMM-d"
-            // calendarIcon=""
+            format="d/MM/y"
+            calendarIcon="w"
+            minDetail="month"
+            
             // next2Label=""
             // prev2Label=""
             // formatShortWeekday={(locale, date) => formatDate(date, 'dd')}
-            // formatShortWeekday={(date) => new Intl.DateTimeFormat(locales, options).format(date)}
+            // formatShortWeekday={(data) => format(new Date(), 'EEEEEE')}
             />
         </div>
     )
