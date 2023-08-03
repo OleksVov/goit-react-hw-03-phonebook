@@ -4,6 +4,7 @@ import { nanoid } from 'nanoid'
 import Filter from "./Filter/Filter";
 import Contacts from "./Contacts/Contacts";
 import ContactForm from "./ContactForm/ContactForm";
+import DataPicker from "./Calendar/DataPicker";
 
 class App extends Component {
   state = {
@@ -85,6 +86,9 @@ class App extends Component {
        contacts={contacts}
        filter={filter}
        onDelete={this.deleteContact}/>
+
+<h2>Calendar</h2>
+<DataPicker/>
       
       </div>
     );
