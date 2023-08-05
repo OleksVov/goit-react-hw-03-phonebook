@@ -1,8 +1,7 @@
 .react-calendar {
-    width: 280px;
+    width: 300px;
     max-width: 100%;
     background-color: #1F1F1F;
-    
     border: 1px solid #BEDBB0;
     border-radius: 8px;
     font-family: Arial, Helvetica, sans-serif;
@@ -24,7 +23,7 @@
   }
   .react-calendar__viewContainer {
     display: flex;
-    margin: 10px;
+    margin: 18px;
   }
   .react-calendar--doubleView .react-calendar__viewContainer {
     display: flex;
@@ -59,7 +58,7 @@
   .react-calendar__navigation {
     display: flex;
     height: 35px;
-    margin: 10px;
+    margin: 10px 18px;
     padding-bottom: 5px;
    border-bottom-style: solid;
    border-bottom-color: rgba(255,255,255, 0.2);
