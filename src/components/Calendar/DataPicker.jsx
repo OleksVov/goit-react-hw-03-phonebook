@@ -1,16 +1,15 @@
 import React from "react";
 import { useState} from "react";
-import DatePicker from "react-date-picker";
+import DatePicker from "react-datepicker";
 
-import 'react-date-picker/dist/DatePicker.css';
-// import 'react-calendar/dist/Calendar.css';
+import 'react-datepicker/dist/react-datepicker.css';
 import './DataPicker.css';
 
 // import { format, isToday } from 'date-fns';
 
 
 const DateCalendar = () => {
-    const [date, setDate] = useState(new Date());
+    const [startDate, setStartDate] = useState(new Date());
     // const locales = 'en-Us';
     // const options = {weekday: 'long'};
 
@@ -22,8 +21,8 @@ const DateCalendar = () => {
     //   };
 
     const onChange = date => {
-        setDate(date);
-    };
+        setStartDate(date);
+      };
     // const InputOutputBtn = forwardRef(({ _, onClick }, ref) => (
     //     <button
     //       type="button"
@@ -38,23 +37,17 @@ const DateCalendar = () => {
 
     return (
         <div>
-            <DatePicker  
-            onChange={onChange} 
-            value={date}
-            minDate={new Date()}
-            locale="en-US"
-            format="dd.MM.y"
-            calendarIcon="w"
-            minDetail="month"
-         
-            // clearIcon=""
-            // formatDay={(locale, date) => formatDate(date, 'd')}
-            
-            // next2Label=""
-            // prev2Label=""
-            // formatShortWeekday={(locale, date) => formatDate(date, 'dd')}
-            // formatShortWeekday={(data) => format(new Date(), 'EEEEEE')}
-            />
+           <DatePicker
+        selected={startDate}
+        onChange={onChange}
+        minDate={new Date()}
+        calendarStartDay={1}
+       
+       
+       
+        // popperPlacement='right-end'
+
+      />
         </div>
     )
 }
