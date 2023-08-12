@@ -111,3 +111,19 @@ GitHub.
 3. Если все шаги прошли успешно, собранная продакшн версия файлов проекта
    отправляется в ветку `gh-pages`. В противном случае, в логе выполнения
    скрипта будет указано в чем проблема.
+
+# TaskPro
+
+**WARNING!** In this project, the backend is deployed on a free cloud service [render.com](https://render.com/), 
+so it takes some time for the application to launch for the first time.
+
+### Do you have anything planned?
+Use  **TaskPro** to increase productivity, prioritize tasks and achieve your goals with efficiency and simply eliminate unnecessary hassle. Do your daily tasks with **TaskPro** and enjoy life.
+**TaskPro** is the ultimate to-do list app for work and leisure.
+The application has a simple and intuitive interface for everyone.
+Thanks to the adaptive layout, you can access the list of your affairs and organize them at home on a computer, 
+even on the go in a mobile application.
+
+**TaskPro** prioritizes data security and privacy. The application uses advanced encryption methods and strong authentication mechanisms, protecting your confidential information. You can rest assured that your data remains private and secure on the platform.
+
+![Registration](./assets/start.png)
