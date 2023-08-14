@@ -114,7 +114,7 @@ GitHub.
 
    ## The technologies powering front-end:
 
- Heading 1 :| Heading 2 :| Heading 3   
+ Heading 1 : | Heading 2 : | Heading 3   
 ---------------------------------|----|----
 Cell B1 | Cell B2 | Cell B3<br/>second line of text 
 - SASS
@@ -123,55 +123,17 @@ Cell B1 | Cell B2 | Cell B3<br/>second line of text
 - React Hooks
 - Styled components
 - Formik
-
 - Axios
-
 - react-toastify
-
 - react-datepicker
-
 - Node.js
-
 - cloudinary
-
 - mongoose
-
 - swagger-ui-express
-
 - nanoid
-
 - jsonwebtoken
 
-<table>
-  <caption>
-    Train schedule
-  </caption>
-  <thead>
-    <tr>
-      <th> SASS</th>
-      <th>Route</th>
-      <th>Travel time</th>
-    </tr>
-  </thead>
 
-  <tbody>
-    <tr>
-      <td>433</td>
-      <td>London - Paris</td>
-      <td>5 hours</td>
-    </tr>
-    <tr>
-      <td>701</td>
-      <td>New York - Chicago</td>
-      <td>7 hours</td>
-    </tr>
-    <tr>
-      <td>258</td>
-      <td>Oslo - Warsaw</td>
-      <td>4 hours</td>
-    </tr>
-  </tbody>
-</table>
 
 
 ### Thank you for your attention to the project, I hope you enjoy it!
