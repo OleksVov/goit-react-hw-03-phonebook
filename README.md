@@ -118,15 +118,10 @@ GitHub.
 ---------------------------------|----|----
 Cell B1 | Cell B2 | Cell B3<br/>second line of text 
 - SASS
-
 - React
-
 - Redux Toolkit
-
 - React Hooks
-
 - Styled components
-
 - Formik
 
 - Axios
@@ -153,7 +148,7 @@ Cell B1 | Cell B2 | Cell B3<br/>second line of text
   </caption>
   <thead>
     <tr>
-      <th>Train number</th>
+      <th> SASS</th>
       <th>Route</th>
       <th>Travel time</th>
     </tr>
