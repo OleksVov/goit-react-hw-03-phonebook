@@ -111,3 +111,41 @@ GitHub.
 3. Если все шаги прошли успешно, собранная продакшн версия файлов проекта
    отправляется в ветку `gh-pages`. В противном случае, в логе выполнения
    скрипта будет указано в чем проблема.
+
+   ## The technologies powering front-end:
+
+   | Heading 1 | Heading 2 | Heading 3 |  
+|-----------|:-----------:|-----------:|  
+| Cell A1 | Cell A2 | Cell A3 |  
+| Cell B1 | Cell B2 | Cell B3<br/>second line of text |
+- SASS
+
+- React
+
+- Redux Toolkit
+
+- React Hooks
+
+- Styled components
+
+- Formik
+
+- Axios
+
+- react-toastify
+
+- react-datepicker
+
+- Node.js
+
+- cloudinary
+
+- mongoose
+
+- swagger-ui-express
+
+- nanoid
+
+- jsonwebtoken
+
+### Thank you for your attention to the project, I hope you enjoy it!
