@@ -147,4 +147,11 @@ Cell B1 | Cell B2 | Cell B3<br/>second line of text
 
 - jsonwebtoken
 
+<table>
+    <tr>
+        <td>Foo</td>
+    </tr>
+</table>
+
+
 ### Thank you for your attention to the project, I hope you enjoy it!
