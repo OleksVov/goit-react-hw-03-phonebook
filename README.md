@@ -114,7 +114,7 @@ GitHub.
 
    ## The technologies powering front-end:
 
- Heading 1 | Heading 2 | Heading 3   
+ Heading 1                   | Heading 2                          | Heading 3   
 ---------------------------------|----|----
 Cell B1 | Cell B2 | Cell B3<br/>second line of text 
 - SASS
